@@ -7,6 +7,6 @@ public class ExV : IExercise
 {
     public void Resolve()
     {
-        Console.WriteLine($"[{String.Join(", ", StackClass.GetCurrentStack())}]");
+        Console.WriteLine($"[{String.Join(", ", StackClass.GetCurrentStack().Stack)}]");
     }
 }

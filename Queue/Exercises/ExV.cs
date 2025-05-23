@@ -7,6 +7,6 @@ public class ExV : IExercise
 {
     public void Resolve()
     {
-        Console.WriteLine($"[{String.Join(", ", QueueClass.GetCurrentQueue())}]");
+        Console.WriteLine($"[{String.Join(", ", QueueClass.GetCurrentQueue().Queue)}]");
     }
 }
